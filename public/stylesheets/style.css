@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.left{
+  width: 25%;
+  height: 100%;
+  background-color: gray;
+  /* text-align: center; */
+  padding-top: 5vw;
+}
+
+form{
+  text-align: center;
+}
+
+.left input{
+  padding: 1vw;
+  text-align: center;
+}
+
+.left ul{
+  /* background: red; */
+  margin-left: 6.2vw;
+  padding-top: 1vw;
+  list-style: none;  
+  font-size: 1.3vw;
+}
+
+.left li{
+  margin-bottom: 0.5vw;
+}
+
+.right{
+  width: 75%;
+  height: 100%;
+  background-color: wheat;
+}
