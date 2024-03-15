@@ -49,4 +49,13 @@ form{
   width: 75%;
   height: 100%;
   background-color: wheat;
+
+}
+
+.right form{
+    margin-top: 5vw;
+}
+
+textarea{
+  padding: 2vw;
 }

@@ -21,13 +21,20 @@
       <ul>
        <% files.forEach((file)=>{ %> 
           <li>
-            <a href='/<%= file %>'><%= file %></a>
+            <a href="/<%= file %>"><%= file %></a>
           </li>
        <% }) %>
       </ul>
       
     </div>
-    <div class="right"></div>
+    <div class="right">
+
+      <form action="">
+        <textarea cols="100" rows="30">
+          <%= filedata %>
+        </textarea>                                                 
+      </form>
+    </div>
   </div>
 
 </body>
