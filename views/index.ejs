@@ -29,11 +29,13 @@
         </ul>
       </div>
       <div class="right">
-        <form action="">
-          <textarea cols="100" rows="30">
+        <form action="/update/<%= filename %>" method="post">
+          <textarea cols="100" rows="30" name="filedata">
           <%= filedata %>
-        </textarea
-          >
+          </textarea>
+
+          <br>
+          <button>save</button>
         </form>
       </div>
     </div>
